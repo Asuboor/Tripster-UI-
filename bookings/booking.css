@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+
+.bookings{
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.bookings h1{
+    margin: 10px;
+    font-size: 75px;
+    color: #272727;
+    font-weight: bolder;    
+}
+
+.error{
+    margin: 40px;
+    text-align: center;
+    color: red;
+    font-size: 60px;
+}
+
+.booknow{
+position: relative;left: 654px;top: 20px;
+}
+
+#foot{
+    position: relative;top: 90px;
+}

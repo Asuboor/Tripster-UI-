@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Profile Card Hover Animation | CodingNepal</title>
+      <link rel="stylesheet" href="./chncard.css">
+      <link rel="stylesheet" href=""/>
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="./chn1.jpg" alt="">
+            </a>
+            <div class="title">
+               CHENNAI
+            </div>
+            
+         </div>
+         <br><br>
+         <a href="" class="apply">Apply Now</a>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>

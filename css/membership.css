@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .membershipheading{
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    margin-left: 40px;
+text-align: center;
+padding: 30px;
+margin-right: 30px;
+  }
+  .container3 {
+    height: 250px;
+    
+    overflow: hidden;
+  
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    /* box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3); */
+    background: linear-gradient(45deg, #7b00e0, #ae31d9);
+    
+    float: left;
+    
+    margin:90px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 470px;
+    width: 320px;
+    border-radius: 5px;
+    /* box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3); */
+    box-shadow: -15px -15px  rgb(253, 29, 29) ;
+  }
+
+.container3 .wrapper img {
+    position: relative;
+    z-index: 20;
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    object-fit: cover;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .container3:hover .wrapper img.active {
+    height: 470px;
+    width: 350px;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .wrapper .title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 25px;
+  }
+  
+  .wrapper .place {
+    color: #fff;
+    font-size: 17px;
+    line-height: 0px;
+    margin: 10px 0;
+  }
+  
+  .content {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 1px 20px 10px 20px !important;
+  }
+/*   
+  .title h2{
+    color: #d2042d;
+  } */
+
+  div.buynow1{
+    position: relative;left: 660px;
+  }
+
+  div.question
+  {
+    text-align: center;
+  }
+
+.reason{
+  font-size: 20px;
+}
